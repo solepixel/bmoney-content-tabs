@@ -15,14 +15,14 @@
 	.content-tabs li a {
 		display: block;
 		padding: 12px 16px 8px;
-		background: #485c56;
+		/*background: #485c56;*/
 		float: left;
-		color: #fff;
+		/*color: #fff;*/
 	}
 	
 	.content-tabs li a.active,
 	.content-tabs li a:hover {
-		background: #005039;
+		/*background: #005039;*/
 	}
 	
 	
@@ -38,13 +38,9 @@
 		width:600px;
 	}
 	.tab-content-wrapper:after {
-		content:'.';
-		visibility:hidden;
+		content:'';
 		clear:both;
-		display:block;
-		height:0;
-		font-size:0;
-		overflow:hidden;
+		display:table;
 	}
 	.tab-content-wrapper .tab-content {
 		float:left;

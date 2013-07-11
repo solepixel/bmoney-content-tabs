@@ -1,7 +1,8 @@
 /*
 Project: ContentTabs
 Author: Brian DiChiara
-Version: 1.0
+Website: http://briandichiara.com
+Version: 1.1
 Usage: Activates Tabbed navigation
 */
 

@@ -17,7 +17,7 @@ add_action( 'init', 'bmoney_content_tabs_init', 11 );
 
 function bmoney_content_tabs_init() {
 
-	add_filter('the_content', 'bmoney_content_tabs', 1); // TODO: make priority an option
+	add_filter('the_content', 'bmoney_content_tabs', 99); // TODO: make priority an option
 	add_filter('widget_text', 'bmoney_content_tabs_widget', 1);
 }
 
@@ -89,7 +89,7 @@ function bmoney_content_tabs($content){
 			$content = $html->outertext; // overwrite content with newly altered content
 		}
 	} else {
-		echo '<!-- no tabs señor... -->';
+		echo '<!-- no tabs seï¿½or... -->';
 	}
 	return $content;
 }
